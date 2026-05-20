@@ -7,6 +7,9 @@ def singular_curve_attack(Gx,Gy,Px,Py,a,b,p):
     A singular curve has a discriment equal to 0 and it has either one or two roots. 
     The points on a singular curve can be mapped to points on a finite field to reduce the ecdlp to a standard finite field dlp.
 
+    For single root singular curves the mapping is P(x,y) -> (x-root)/y
+    and for double root singular curves the mapping is P(x,y) -> (y+ t*(x-double_root))/(y- t*(x-double_root)) where t is sqrt(double_root-single_root)
+
     Args:
         Gx: x coordinate of Generator point
         Gy: y coordinate of Generator point
