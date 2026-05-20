@@ -57,7 +57,7 @@
     - [ ] Nitaj's CRT [ ]RSA - Recover $p$ and $q$ for small $d_p$ or $d_q$
     - [ ] Partial key exposure - partial $d$
   - ### Message & Forgery ttacks
-    - [ ] Franklin-Reiter Related Message - related $m$'s
+    - [x] Franklin-Reiter Related Message - related $m$'s
     - [ ] Coppersmith's partial known message (stereotyped message attack)
     - [ ] Desmedt-Odlyzko - selective forgery
   - ### Side-channel attacks
@@ -76,7 +76,7 @@
     - [ ] Smooth Order
     - [ ] Almost Smooth Order, Small Private Key
     - [ ] Non-Verfication - point not on curve
-    - [ ] Singular Curve
+    - [x] Singular Curve
     - [ ] Supersingular Curve
     - [ ] Anomalous Curve
   - ## ECDSA

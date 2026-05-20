@@ -1,6 +1,5 @@
 from sage.all import *
 from Crypto.Util.number import *
-import random
 
 def franklin_reiter(n,e,c1,c2,f):
     """
@@ -29,7 +28,7 @@ def test():
     p,q = getPrime(1024),getPrime(1024)
     n = p*q
     e = 65537
-    m1,a,b = random.randint(0,n-1),random.randint(0,n-1),random.randint(0,n-1)
+    m1,a,b = randint(0,n-1),randint(0,n-1),randint(0,n-1)
     
     def f(x):
         return a*x+b
