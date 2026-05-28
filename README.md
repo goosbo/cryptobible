@@ -117,7 +117,7 @@
   - [x] [Merkle-Hellman](src/cryptobible/lattices/merkle_hellman.py) (knapsack cryptography)
   - ### LWE
     - [x] [Low Noise](src/cryptobible/lattices/lwe/low_noise.py) (LLL/BKZ cracking)
-    - [ ] Fixed Noise (Aurora-Ge)
+    - [x] Fixed Noise (Arora-Ge)
 <!-- Note: Below algorithms are very complex -->
   - ### MLDSA
     - [ ] Fault injection
